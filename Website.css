@@ -102,14 +102,14 @@
     padding: 10px 20px;
     outline: none;
     box-shadow: none;
-    cursor: pointer;  
+    cursor: pointer;
     transition: 5s;
  }
 
-  #firstpage h1 div button:hover{
-   color: aliceblue;
+ #firstpage h1 div button:hover {
+    color: aliceblue;
 
-  }
+ }
 
  #firstpage h1 h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -144,7 +144,7 @@
 
 
 
- #card1 {  
+ #card1 {
     width: 260px;
     background: white;
     border: 2px solid black;
@@ -393,7 +393,7 @@
 
     #firstpage {
        height: 100vh;
-       /* min-height:100vh; */
+       min-height: 100vh;
 
     }
 
@@ -495,5 +495,17 @@
 
     #check:checked~main #firstpage img {
        margin-top: 100px;
+    }
+
+    #footer {
+       text-align: center;
+       height:100vh;
+        padding: 20px;
+       flex-direction: column;
+    }
+
+    #footer-container {
+       height: 100vh;
+       min-height: 100vh;
     }
  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Seat</title>
+    <link rel="stylesheet" href="booksheet.css">
+</head>
+<body>
+
+    <div class="booking-container">
+        <form id="seatBookingForm">
+            <h2>Book Your Sheet</h2>
+            
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="seat-type">Type Of Seat</label>
+                <select id="seat-type" name="seat-type">
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                    <option value="vip">VIP</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Book Now</button>
+        </form>
+    </div>
+
+</body>
+</html>

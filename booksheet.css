@@ -67,3 +67,29 @@ h2 {
 .btn-submit:hover {
     background-color: blueviolet;
 }
+
+/* Mobile Devices ke liye adjustments (Screens smaller than 480px) */
+@media (max-width: 480px) {
+    body {
+        /* Mobile par padding zaroori hai taaki container edges se na chipke */
+        padding: 20px;
+        align-items: flex-start; /* Lambe forms ke liye scroll easy rehta hai */
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .booking-container {
+        padding: 20px; /* Thoda kam padding screen space bachane ke liye */
+        width: 95%;    /* Side se thodi jagah chhodne ke liye */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Heading thodi choti mobile ke liye */
+        margin-bottom: 20px;
+    }
+
+    .btn-submit {
+        padding: 15px; /* Mobile par touch targets bade hone chahiye */
+        font-size: 18px;
+    }
+}

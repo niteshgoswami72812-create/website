@@ -43,7 +43,7 @@ h2 {
     border: 1px solid blueviolet;
     border-radius: 6px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .input-group input:focus {

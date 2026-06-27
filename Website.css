@@ -344,31 +344,31 @@
  }    
      
  #footer-section ul li a {            
-    color: white;                
+    color: white;                   
     text-decoration: none;           
  } 
  
- #footer-section ul li {       
+ #footer-section ul li {        
     margin-bottom: 10px;   
  }
-
- #footer-section h3 { 
-    margin-bottom: 15px;
-    font-size: 20px;
+ 
+ #footer-section h3 {  
+    margin-bottom: 15px; 
+    font-size: 20px; 
  }   
-      
+       
  #footer-section p { 
-    line-height: 1.6;
+    line-height: 1.6; 
     font-size: 14px;      
- }
+ } 
 
- #footer-bottom {
+ #footer-bottom { 
     text-align: center;
-    margin-top: 30px;
+    margin-top: 30px; 
     border-top: 1px solid rgba(255, 255, 255, 0.3);
-    padding-top: 15px;
+    padding-top: 15px; 
     font-size: 14px;
- }
+ } 
 
  #bar {
     position: absolute;

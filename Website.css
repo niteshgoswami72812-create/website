@@ -372,7 +372,7 @@
 
  #bar {
     position: absolute;    
-    top: 25px;  
+    top: 25px;      
     right: 20px;
     font-size: 30px; 
     z-index: 10;
